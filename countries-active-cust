@@ -1,4 +1,4 @@
-For question: Which countries are Rockbuster customers based in? and/or Where are customers with a high lifetime value based?
+# For question: Which countries are Rockbuster customers based in? and/or Where are customers with a high lifetime value based?
 
 SELECT E.country, COUNT (DISTINCT(B.customer_id)) AS number_of_customers
 FROM payment A
