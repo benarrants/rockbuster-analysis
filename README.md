@@ -5,6 +5,8 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 The task is to load all of Rockbuster’s data into a relational database management system (RDBMS). Then, use SQL to analyze the data to answer any ad-hoc business questions and help with the launch strategy for the new online video service.
 
 Data:
+
+Contains observations consisting of inventory, customer, payments, and location, data among others.
 ![Rockbuster_ERD](https://github.com/benarrants/rockbuster-analysis/assets/154282961/3d37d19e-81a9-455f-94b9-4c8a27ecd164)
 
 
@@ -16,6 +18,7 @@ Key Business Questions:
 5. Do sales figures vary between geographic regions?
 
 Deliverables:
+
 • Data Dictionary
 • Query Results/Guide
 • Presentation of Analysis [(Tableau visuals)](https://public.tableau.com/shared/W8QSDC4NR?:display_count=n&:origin=viz_share_link)
