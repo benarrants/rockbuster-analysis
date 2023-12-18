@@ -1,0 +1,21 @@
+# For question: Which countries are Rockbuster customers based in?
+
+WITH genres_and_revenue AS 	
+	(SELECT F.name AS film_category, B.rental_id
+	FROM payment A
+	INNER JOIN rental B ON A.rental_id = B.rental_id
+	INNER JOIN inventory C ON B.inventory_id = C.inventory_id
+	INNER JOIN film D ON C.film_id = D.film_id
+	INNER JOIN film_category E ON D.film_id = E.film_id
+	INNER JOIN category F ON E.category_id = F.category_id
+	GROUP BY name, B.rental_id)
+	
+SELECT F.country, film_category, SUM(B.amount) AS total_revenue	
+FROM genres_and_revenue A	
+LEFT JOIN payment B ON A.rental_id = B.rental_id	
+INNER JOIN customer C ON B.customer_id = C.customer_id	
+INNER JOIN address D ON C.address_id = D.address_id	
+INNER JOIN city E ON D.city_id = E.city_id	
+INNER JOIN country F ON E.country_id = F.country_id	
+GROUP BY country, film_category	
+ORDER BY country, total_revenue
