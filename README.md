@@ -7,9 +7,7 @@ The task is to load all of Rockbuster’s data into a relational database manage
 
 ## Data
 
-Contains observations consisting of inventory, customer, payments, and location, data among others.
-![Rockbuster_ERD](https://github.com/benarrants/rockbuster-analysis/assets/154282961/3d37d19e-81a9-455f-94b9-4c8a27ecd164)
-
+Contains observations consisting of inventory, customer, payments, and location data, among others.
 
 ## Key Business Questions
 1. Which movies contributed the most/least to revenue gain?
