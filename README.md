@@ -20,4 +20,4 @@ Contains observations consisting of inventory, customer, payments, and location 
 
 • Query Results/Guide
 
-• Presentation of Analysis [(Tableau visuals)](https://public.tableau.com/shared/W8QSDC4NR?:display_count=n&:origin=viz_share_link)
+• Presentation of Analysis [(Tableau visuals)](https://public.tableau.com/views/VisualsforRockbuster3_10/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
